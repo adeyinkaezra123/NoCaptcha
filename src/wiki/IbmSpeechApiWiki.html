@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/assets/icons/app/icon-16.png" type="image/x-icon" />
+    <link href="/src/assets/fonts/roboto.css" rel="stylesheet" />
+
+    <title>NoCaptcha: IBM Watson Speech API Guide</title>
+    <style>
+        * {
+            font-family: "Roboto", Ubuntu;
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            padding: 5rem;
+            font-size: 1.15rem;
+        }
+
+        .header {
+            position: relative;
+            padding: 3rem;
+
+            height: 45vh;
+            background-image: linear-gradient(210deg, #0f62fe 33%, #be95ff 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+            /* change the calc height to a percentage height to get alternate responsive behavior*/
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            text-align: center;
+        }
+
+        .page_header {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .banner_img {
+            max-width: 100px;
+            float: right;
+        }
+
+        .subtopic {
+            padding: 2rem 0;
+
+            border-bottom: 1px solid black;
+        }
+
+        p {
+            color: #212121;
+        }
+
+        ul {
+            list-style: decimal;
+            line-height: 2.25;
+            padding: 1rem 3rem;
+        }
+
+        .highlight {
+            border-radius: 7px;
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: .2rem .4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <img class="banner_img" src="./assets/ibm/logo.svg" alt="Siuu" srcset="" />
+        </nav>
+        <header>
+            <h2 class="page_header">Configuring IBM Watson Speech to Text</h2>
+        </header>
+    </section>
+    <section class="">
+        <div class="subtopic">
+            <h3>Platform Overview - What is IBM Watson Speech to Text?</h3>
+            <p>
+                IBM Watson® Speech to Text technology enables fast and accurate speech
+                transcription in multiple languages for a variety of use cases.
+            </p>
+        </div>
+        <div class="subtopic">
+            <h4>Getting an API key</h4>
+            <p>
+            <ul>
+                <li>Go to
+                    <a href="https://cloud.ibm.com/registration" target="_blank">IBM Cloud</a> , create an account and
+                    log in
+                </li>
+
+                <li>Go to <a href="https://cloud.ibm.com/catalog/services/speech-to-text" target="_blank"
+                        rel="noopener noreferrer">Speech to Text</a>, select a location for the service, select the free
+                    pricing plan, and accept the terms of service, then click on <span class="highlight">Create</span>
+                </li>
+
+                <li>After the service is created, go to <span class="highlight">Manage</span> and click on <span
+                        class="highlight">Show credentials</span></li>
+                <li>Copy the displayed API key and API endpoint URL</li>
+            </ul>
+            </p>
+        </div>
+        <div class="subtopic">
+            <h3>Configuring the Nocapthca extension</h3>
+            <p>
+            <ul>
+                <li>
+                    Open the extension's options
+
+                </li>
+                <li>Under <span class="highlight">Speech recognition</span> select <span class="highlight">IBM Watson
+                        Speech to Text</span></li>
+                <li>Paste the API endpoint and API key you have previously copied from IBM Cloud into their respective
+                    fields
+                </li>
+            </ul>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

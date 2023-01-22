@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/assets/icons/app/icon-16.png" type="image/x-icon" />
+    <link href="/src/assets/fonts/roboto.css" rel="stylesheet" />
+
+    <title>NoCaptcha: Configuring Meta Wit.ai Speech API Guide</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: "Roboto",  Ubuntu ;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            padding: 5rem;
+            font-size: 1.15rem;
+        }
+
+        .header {
+            position: relative;
+            padding: 3rem;
+
+            height: 45vh;
+            background:linear-gradient(120deg, rgba(110, 123, 251, 1), rgba(216, 211, 211, 0.933));
+
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            text-align: center;
+        }
+
+        .page_header {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .banner_img {
+            max-width: 100px;
+            float: right;
+        }
+
+        .subtopic {
+            padding: 2rem 0;
+
+            border-bottom: 1px solid black;
+        }
+
+        p {
+            color: #212121;
+        }
+
+        ul {
+            list-style: decimal;
+            line-height: 2.25;
+            padding: 1rem 3rem;
+        }
+
+        .highlight {
+            border-radius: 7px;
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: .2rem .4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <img class="banner_img" src="./assets/meta/logo.svg" alt="Siuu" srcset="" />
+        </nav>
+        <header>
+            <h2 class="page_header">Configuring Meta Wit Speech to Text</h2>
+        </header>
+    </section>
+    <section class="">
+        <div class="subtopic">
+            <h3>Platform Overview - What is Meta Wit Speech to Text?</h3>
+            <p>
+                Wit.ai® Speech to Text technology enables fyou to
+                accurately convert speech into text with an API powered by the best of Meta’s AI research and
+                technology.
+
+
+            </p>
+        </div>
+        <div class="subtopic">
+            <h4>Getting an API key</h4>
+            <p>
+            <ul>
+                <li>
+                    Go to <a href="https://wit.ai/" target="_blank">wit.ai</a>
+                    and sign up for free with your Facebook account
+
+                </li>
+                <li>
+                    Press <span class="highlight">Continue With Facebook</span> and connect to Wit.ai with a Facebook account
+                </li>
+                <li>
+Go to <a href="https://wit.ai/apps">wit.ai/apps</a> and click on <span class="highlight">New App</span>
+
+                </li>
+
+                <li>
+                    Choose a name and select a language (English works best), set the app visibility to private, then press <span class="highlight">CREATE</span>
+                </li>
+
+                <li>Go to <span class="highlight">Management</span> > <span class="highlight">Settings</span> (<span class="highlight">https://wit.ai/apps/<App ID>/settings</span>)
+ <span class="highlight">ENABLE
+                        API</span></li>
+                
+                <li>Copy the API key from the <span class="highlight"> Client Access Token</span> section
+</li>
+            </ul>
+            </p>
+        </div>
+        <div class="subtopic">
+            <h3>Configuring the Nocapthca extension</h3>
+            <p>
+            <ul>
+
+                <li>
+                    Open the extension's options
+
+                </li>
+                <li>Under <span class="highlight">Speech recognition</span> select <span class="highlight">Wit.ai</span></li>
+                <li>Under <span class="highlight">API language</span> select the language you have picked for the Wit.ai app, then press <span class="highlight">Add API</span>
+</li>
+                <li>Paste the API key you have previously copied from Wit.ai into the <span class="highlight">API key: language</span>  field
+
+                </li>
+            </ul>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,516 @@
+{
+  "extensionName": {
+    "message": "NoCaptcha: CAPTCHA Solver for Busy People",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Breeze through the web without the frustration of trying to decipher complicated CAPTCHAs to prove you're not a robot.",
+    "description": "Description of the extension."
+  },
+
+  "optionSectionTitle_services": {
+    "message": "Speech Recognition Services",
+    "description": "Title of the options section."
+  },
+  "optionSectionTitle_description": {
+    "message": "Select the Speech recognition service provider which the extension would use to solve audio challenges",
+    "description": "Descrption of the options section."
+  },
+
+  "optionTitle_speechService": {
+    "message": "Speech Service",
+    "description": "Title of the option."
+  },
+
+  "optionValue_speechService_googleSpeechApi": {
+    "message": "Google Cloud Speech-to-Text",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_ibmSpeechApi": {
+    "message": "IBM Watson Speech to Text",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_microsoftSpeechApi": {
+    "message": "Microsoft Azure Speech to Text",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_witSpeechApiDemo": {
+    "message": "Meta Wit.ai (default)",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_witSpeechApi": {
+    "message": "Meta Wit.ai",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_microsoftSpeechApiLoc": {
+    "message": "API location",
+    "description": "Title of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_southafricanorth": {
+    "message": "South Africa North",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_eastasia": {
+    "message": "East Asia",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_southeastasia": {
+    "message": "Southeast Asia",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_australiaeast": {
+    "message": "Australia East",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_centralindia": {
+    "message": "Central India",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_japaneast": {
+    "message": "Japan East",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_japanwest": {
+    "message": "Japan West",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_koreacentral": {
+    "message": "Korea Central",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_canadacentral": {
+    "message": "Canada Central",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_northeurope": {
+    "message": "North Europe",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westeurope": {
+    "message": "West Europe",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_francecentral": {
+    "message": "France Central",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_germanywestcentral": {
+    "message": "Germany West Central",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_norwayeast": {
+    "message": "Norway East",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_switzerlandnorth": {
+    "message": "Switzerland North",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_switzerlandwest": {
+    "message": "Switzerland West",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_uksouth": {
+    "message": "UK South",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_uaenorth": {
+    "message": "UAE North",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_brazilsouth": {
+    "message": "Brazil South",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_centralus": {
+    "message": "Central US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_eastus": {
+    "message": "East US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_eastus2": {
+    "message": "East US 2",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_northcentralus": {
+    "message": "North Central US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_southcentralus": {
+    "message": "South Central US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westcentralus": {
+    "message": "West Central US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westus": {
+    "message": "West US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westus2": {
+    "message": "West US 2",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westus3": {
+    "message": "West US 3",
+    "description": "Value of the option."
+  },
+
+  "optionSectionTitle_misc": {
+    "message": "Miscellaneous",
+    "description": "Title of the options section."
+  },
+
+  "optionTitle_loadEnglishChallenge": {
+    "message": "Load challenge in English",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_tryEnglishSpeechModel": {
+    "message": "Retry speech recognition with English model",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_appTheme": {
+    "message": "Theme",
+    "description": "Title of the option."
+  },
+
+  "optionValue_appTheme_auto": {
+    "message": "System default",
+    "description": "Value of the option."
+  },
+
+  "optionValue_appTheme_light": {
+    "message": "Light",
+    "description": "Value of the option."
+  },
+
+  "optionValue_appTheme_dark": {
+    "message": "Dark",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_witSpeechApiLang": {
+    "message": "API language",
+    "description": "Title of the option."
+  },
+
+  "optionValue_witSpeechApiLang_arabic": {
+    "message": "Arabic",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_bengali": {
+    "message": "Bengali",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_chinese": {
+    "message": "Chinese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_dutch": {
+    "message": "Dutch",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_english": {
+    "message": "English",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_finnish": {
+    "message": "Finnish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_french": {
+    "message": "French",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_german": {
+    "message": "German",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_hindi": {
+    "message": "Hindi",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_indonesian": {
+    "message": "Indonesian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_italian": {
+    "message": "Italian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_japanese": {
+    "message": "Japanese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_kannada": {
+    "message": "Kannada",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_korean": {
+    "message": "Korean",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_malay": {
+    "message": "Malay",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_malayalam": {
+    "message": "Malayalam",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_marathi": {
+    "message": "Marathi",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_polish": {
+    "message": "Polish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_portuguese": {
+    "message": "Portuguese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_russian": {
+    "message": "Russian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_sinhala": {
+    "message": "Sinhala",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_spanish": {
+    "message": "Spanish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_swedish": {
+    "message": "Swedish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_tamil": {
+    "message": "Tamil",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_thai": {
+    "message": "Thai",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_turkish": {
+    "message": "Turkish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_urdu": {
+    "message": "Urdu",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_vietnamese": {
+    "message": "Vietnamese",
+    "description": "Value of the option."
+  },
+
+  "inputLabel_apiUrl": {
+    "message": "API endpoint",
+    "description": "Label of the input."
+  },
+
+  "inputLabel_apiKey": {
+    "message": "API key",
+    "description": "Label of the input."
+  },
+
+  "inputLabel_apiKeyType": {
+    "message": "API key: $TYPE$",
+    "description": "Label of the input.",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+
+  "inputLabel_appLocation": {
+    "message": "App location",
+    "description": "Label of the input."
+  },
+
+  "inputLabel_manifestLocation": {
+    "message": "Manifest location",
+    "description": "Label of the input."
+  },
+
+  "buttonLabel_addApi": {
+    "message": "Add API",
+    "description": "Text of the button."
+  },
+
+  "buttonLabel_solve": {
+    "message": "Solve the challenge",
+    "description": "Text of the button."
+  },
+
+  "buttonLabel_reset": {
+    "message": "Reset the challenge",
+    "description": "Text of the button."
+  },
+
+  "buttonLabel_downloadApp": {
+    "message": "Download app",
+    "description": "Text of the button."
+  },
+
+  "buttonLabel_installApp": {
+    "message": "Install app",
+    "description": "Text of the button."
+  },
+
+  "buttonLabel_goBack": {
+    "message": "Go back",
+    "description": "Text of the button."
+  },
+
+  "buttonLabel_contribute": {
+    "message": "Contribute",
+    "description": "Label of the button."
+  },
+
+  "linkText_installGuide": {
+    "message": "Installation guide",
+    "description": "Text of the link."
+  },
+
+  "linkText_apiGuide": {
+    "message": "How to get an API key?",
+    "description": "Text of the link."
+  },
+
+  "pageContent_installErrorDesc": {
+    "message": "The installation has failed. Check the browser console for more details, and open an issue on GitHub if this error persists.",
+    "description": "Page content."
+  },
+
+  "pageContent_manifestLocationDesc": {
+    "message": "The manifest location is browser-dependent, edit the path only if the installation does not succeed.",
+    "description": "Page content."
+  },
+
+  "pageTitle": {
+    "message": "$PAGETITLE$ - $EXTENSIONNAME$",
+    "description": "Title of the page.",
+    "placeholders": {
+      "pageTitle": {
+        "content": "$1",
+        "example": "Options"
+      },
+      "extensionName": {
+        "content": "$2",
+        "example": "Extension Name"
+      }
+    }
+  },
+
+  "pageTitle_options": {
+    "message": "Options",
+    "description": "Title of the page."
+  },
+
+  "error_captchaNotSolved": {
+    "message": "Captcha could not be solved. Try again after requesting a new challenge.",
+    "description": "Error message."
+  },
+
+  "error_captchaNotSolvedWitai": {
+    "message": "Wit.ai could not detect any speech. Try a new challenge, or switch to a more reliable service from the extension's options, such as IBM Watson.",
+    "description": "Error message."
+  },
+
+  "error_missingApiUrl": {
+    "message": "API endpoint missing. Visit the extension's options to configure the service.",
+    "description": "Error message."
+  },
+
+  "error_missingApiKey": {
+    "message": "API key missing. Visit the extension's options to configure the service.",
+    "description": "Error message."
+  },
+
+  "error_apiQuotaExceeded": {
+    "message": "API quota exceeded. Try again later, or visit the extension's options and switch to a different service.",
+    "description": "Error message."
+  },
+
+  "error_scriptsNotAllowed": {
+    "message": "Content scripts are not allowed on this page.",
+    "description": "Error message."
+  },
+
+  "error_internalError": {
+    "message": "Something went wrong. Open the browser console for more details.",
+    "description": "Error message."
+  }
+}

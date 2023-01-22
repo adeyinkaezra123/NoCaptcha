@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/assets/icons/app/icon-16.png" type="image/x-icon" />
+    <link href="/src/assets/fonts/roboto.css" rel="stylesheet" />
+
+    <title>NoCaptcha: Google Cloud Speech API Guide</title>
+    <style>
+        * {
+                        font-family: "Roboto",  Ubuntu ;
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            padding: 5rem;
+            font-size: 1.15rem;
+        }
+
+        .header {
+            position: relative;
+            padding: 3rem;
+
+            height: 45vh;
+            background: linear-gradient(-120deg, #34a853, #4285f4);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+            /* change the calc height to a percentage height to get alternate responsive behavior*/
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            text-align: center;
+        }
+
+        .page_header {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .banner_img {
+            max-width: 100px;
+            float: right;
+        }
+
+        .subtopic {
+            padding: 2rem 0;
+
+            border-bottom: 1px solid black;
+        }
+
+        p {
+            color: #212121;
+        }
+
+        ul {
+            list-style: decimal;
+            line-height: 2.25;
+            padding: 1rem 3rem;
+        }
+
+        .highlight {
+            border-radius: 7px;
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: .2rem .4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <img class="banner_img" src="./assets/google/logo.svg" alt="Siuu" srcset="" />
+        </nav>
+        <header>
+            <h2 class="page_header">Configuring Google Cloud Speech to Text</h2>
+        </header>
+    </section>
+    <section class="">
+        <div class="subtopic">
+            <h3>Platform Overview - What is Google Cloud Speech to Text?</h3>
+            <p>
+                Google Cloud® Speech to Text technology enables fyou to
+                accurately convert speech into text with an API powered by the best of Google’s AI research and
+                technology.
+
+
+            </p>
+        </div>
+        <div class="subtopic">
+            <h4>Getting an API key</h4>
+            <p>
+            <ul>
+                <li>
+                    Go to <a href="https://cloud.google.com/" target="_blank">Google Cloud</a>
+                    and sign up for free with a Google account, you may need to add a credit card to activate the
+                    account
+
+                </li>
+
+                <li>Go to <a href="https://console.cloud.google.com/projectcreate" target="_blank"
+                        rel="noopener noreferrer"> New Project</a> and click on <span class="highlight">CREATE</span>, then select the project after it has been created
+
+                    
+                </li>
+
+                <li>Go to <a href="https://console.cloud.google.com/speech/overview" target="_blank" rel="noopener noreferrer">Speech-to-Text</a>  and click on <span class="highlight">ENABLE API</span></li>
+                <li>Go to <a href="https://console.cloud.google.com/apis/credentials">Credentials</a> and click on <span class="highlight">CREATE CREDENTIALS</span>, then select <span class="highlight">API key</span>
+</li>
+                <li>Copy the displayed API key</li>
+            </ul>
+            </p>
+        </div>
+        <div class="subtopic">
+            <h3>Configuring the Nocapthca extension</h3>
+            <p>
+            <ul>
+                <li>
+                    Open the extension's options
+
+                </li>
+                <li>Under <span class="highlight">Speech recognition</span> select <span class="highlight">Google Cloud
+                        Speech to Text</span></li>
+                <li>Paste the API endpoint and API key you have previously copied from Google Cloud into their respective
+                    fields
+                </li>
+            </ul>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

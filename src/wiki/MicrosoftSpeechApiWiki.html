@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/src/assets/icons/app/icon-16.png" type="image/x-icon" />
+    <link href="/src/assets/fonts/roboto.css" rel="stylesheet" />
+
+    <title>NoCaptcha: Microsoft Azure Speech API Guide</title>
+    <style>
+        * {
+            font-family: "Roboto", Ubuntu;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            padding: 5rem;
+            font-size: 1.15rem;
+        }
+
+        .header {
+            position: relative;
+            padding: 3rem;
+
+            height: 45vh;
+            background: linear-gradient(120deg, #ea3e23, #e2b3b3);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+            /* change the calc height to a percentage height to get alternate responsive behavior*/
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            text-align: center;
+        }
+
+        .page_header {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .banner_img {
+            max-width: 100px;
+            float: right;
+        }
+
+        .subtopic {
+            padding: 2rem 0;
+
+            border-bottom: 1px solid black;
+        }
+
+        p {
+            color: #212121;
+        }
+
+        ul {
+            list-style: decimal;
+            line-height: 2.25;
+            padding: 1rem 3rem;
+        }
+
+        .highlight {
+            border-radius: 7px;
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: .2rem .4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <img class="banner_img" src="./assets/microsoft/logo.svg" alt="Siuu" srcset="" />
+        </nav>
+        <header>
+            <h2 class="page_header">Configuring Microsoft Azure Speech to Text</h2>
+        </header>
+    </section>
+    <section class="">
+        <div class="subtopic">
+            <h3>Platform Overview - What is Microsoft Azure Speech to Text?</h3>
+            <p>
+                Microsoft Azure® Speech to Text technology enables fyou to
+                accurately convert speech into text with an API powered by the best of Microsoft’s AI research and
+                technology.
+
+
+            </p>
+        </div>
+        <div class="subtopic">
+            <h4>Getting an API key</h4>
+            <p>
+            <ul>
+                <li>
+                    Go to <a href="https://azure.microsoft.com/en-us/" target="_blank">Microsoft Azure</a>
+                    and sign up for free with a Microsoft account, you may need to add a credit card to activate the
+                    account
+
+                </li>
+                <li>Go to <a href="https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices" target="_blank"
+                        rel="noopener noreferrer">Create Speech Services</a>to create a new speech service, create a new resource group, such as <span class="highlight">cognitive-services</span>, select a region, give the service a unique name, select the free pricing tier, and click on <span class="highlight">Review + create</span> to validate the provided details, then click on <span class="highlight">CREATE</span> and wait for the service to be created,
+                    then select the project after it has been created
+                </li>
+Go to  and click on Show Keys
+Copy the first displayed API key
+                <li>Go to <a href="https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub/~/SpeechServices" target="_blank"
+                        rel="noopener noreferrer">Cognitive Services</a> and click on the newly created service</li>
+                <li>Go to <span
+                        class="highlight">Keys and Endpoint</span> and click on <span class="highlight">Show Keys</span>
+                </li>
+                <li>Copy the first displayed API key</li>
+            </ul>
+            </p>
+        </div>
+        <div class="subtopic">
+            <h3>Configuring the Nocapthca extension</h3>
+            <p>
+            <ul>
+                <li>
+                    Open the extension's options
+
+                </li>
+                <li>Under <span class="highlight">Speech recognition</span> select <span class="highlight">Microsoft Azure
+                        Speech to Text</span></li>
+                <li>Paste the API endpoint and API key you have previously copied from Microsoft Azure into their
+                    respective
+                    fields
+                </li>
+            </ul>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
