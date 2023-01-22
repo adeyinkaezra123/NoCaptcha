@@ -37,10 +37,7 @@ It's worth noting that as the technology progresses, bots can also improve and a
 
 ## Demo
 
-  
-![Demo](https://s3.gifyu.com/images/NoCaptcha---Made-with-Clipchamp-1.gif)
-
-  
+https://user-images.githubusercontent.com/65364356/213935747-656a60f9-27b9-4ddc-8c2f-d9b7c55e84f8.mp4
 
 ## License
 
