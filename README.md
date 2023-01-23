@@ -39,6 +39,35 @@ It's worth noting that as the technology progresses, bots can also improve and a
 
 https://user-images.githubusercontent.com/65364356/213935747-656a60f9-27b9-4ddc-8c2f-d9b7c55e84f8.mp4
 
+## How to use
+
+
+First, you need to install dependencies using `pnpm`
+
+```bash
+npm i -g pnpm // ignore if you already have pnpm on your local machine
+
+pnpm i
+```
+
+### 🔥🔥🔥 Build the project:
+
+```bash
+pnpm build:* // * specifying the intended browser or run
+
+pnpm build:all // to build the extension for all major browsers
+```
+
+### 🔥🔥🔥 Loading the extension in the browser:
+
+- To install a Chrome extension folder from your PC, open the Chrome browser.
+- Navigate to the "More Tools" menu. 
+- Select "Extensions" from the menu.
+- Click the "Load Unpacked" button. 
+- Select the extension folder from the ```dist``` directory generated from build from your PC.
+- Click "Open" to install the extension.
+
+
 ## License
 
 
